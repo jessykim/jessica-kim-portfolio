@@ -28,3 +28,5 @@ const projects = [
     deploymentLink: ''
   }
 ]
+
+export { projects }
