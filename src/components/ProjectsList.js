@@ -7,7 +7,7 @@ function ProjectsList({ projects }) {
       <ul>
         {projects.map((project) => 
           <li key={project.title}>
-            <ProjectPreview title={project.title} />
+            <ProjectPreview project={project} />
           </li>
         )}
       </ul>
