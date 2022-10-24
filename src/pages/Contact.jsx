@@ -17,8 +17,8 @@ function Contact() {
         </div>
         <button>Send</button>
       </form>
-      <a href="https://www.linkedin.com/in/jessicaykim/">LinkedIn</a>
-      <a href="https://github.com/jessykim">GitHub</a>
+      <a href="https://www.linkedin.com/in/jessicaykim/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/jessykim" target="_blank" rel="noopener noreferrer">GitHub</a>
     </>
   )
 }
