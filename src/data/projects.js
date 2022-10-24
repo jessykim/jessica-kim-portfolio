@@ -1,31 +1,31 @@
 const projects = [
   {
     title: 'Tic-Tac-Turbo',
-    description: '',
+    description: 'First browser game I created!',
     image: '',
     repositoryLink: 'https://github.com/jessykim/ttt-weekend',
     deploymentLink: 'https://tictacturbo.netlify.app/'
   },
   {
     title: '[star] WAR[s]',
-    description: '',
+    description: 'Unit 1 project',
     image: '',
     repositoryLink: 'https://github.com/jessykim/star-WARs-card-game',
     deploymentLink: 'https://star-war-s-card-game.netlify.app/'
   },
   {
     title: 'Hustle ATL',
-    description: '',
+    description: 'Unit 2 project using MEN stack',
     image: '',
     repositoryLink: 'https://github.com/jessykim/pick-up-bball',
     deploymentLink: 'https://pick-up-bball.fly.dev/'
   },
   {
     title: 'Giftology',
-    description: '',
+    description: 'Unit 3 project using MERN stack',
     image: '',
-    repositoryLink: '',
-    deploymentLink: ''
+    repositoryLink: 'TBD',
+    deploymentLink: 'TBD'
   }
 ]
 
