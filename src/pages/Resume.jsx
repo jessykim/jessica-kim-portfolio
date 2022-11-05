@@ -26,8 +26,9 @@ function Resume() {
   }
 
   return (
-    <div className='resume'>
+    <div>
       <h1>Resume</h1>
+      <div className='resume-pdf'>
         <Document
           file={resume}
           onLoadSuccess={onDocumentLoadSuccess}
@@ -37,23 +38,29 @@ function Resume() {
         >
           <Page pageNumber={pageNumber} />
         </Document>
-        <div className='page-controls'>
-          <button 
-            disabled={leftDisabled}
-            type='button' 
-            onClick={changePage}
-          >
-            ‹
-          </button>
-          <span>{pageNumber} of {numPages}</span>
-          <button 
-            disabled={rightDisabled}
-            type='button' 
-            onClick={changePage}
-          >
-            ›
-          </button>
-        </div>
+      </div>
+      <div className='page-controls'>
+        <button 
+          disabled={leftDisabled}
+          type='button' 
+          onClick={changePage}
+        >
+          ‹
+        </button>
+        <span>{pageNumber} of {numPages}</span>
+        <button 
+          disabled={rightDisabled}
+          type='button' 
+          onClick={changePage}
+        >
+          ›
+        </button>
+      </div>
+      <div className='download-btn'>
+        <a href={resume} download='Jessica_Kim_Resume'>
+          <button>Download Resume</button>
+        </a>
+      </div>
     </div>
   )
 }
