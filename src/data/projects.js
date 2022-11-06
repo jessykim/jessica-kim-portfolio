@@ -24,8 +24,8 @@ const projects = [
     title: 'Giftology',
     description: 'Unit 3 project using MERN stack',
     image: '',
-    repositoryLink: 'TBD',
-    deploymentLink: 'TBD'
+    repositoryLink: 'https://github.com/creyes25/giftology-frontend',
+    deploymentLink: 'https://giftology-madeez.netlify.app/'
   }
 ]
 
