@@ -1,11 +1,14 @@
-/* nav {
+nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0px 15px 0px 15px;
 }
 
-.navigation-bar {
+.container {
   height: 60px;
   width: 100%;
-} */
+}
+
+.container > a {
+  padding: 0 15px 0 15px;
+}

@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
+import styles from '../styles/NavBar.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function NavBar(props) {
   return (
-    <nav className="navigation-bar">
+    <nav className={styles.container}>
       <NavLink to='/'>
         <FontAwesomeIcon icon={props.faFaceSmile} />
       </NavLink>
