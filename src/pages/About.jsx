@@ -1,20 +1,44 @@
 import Image from '../assets/IMG_3659.jpg'
+import styles from '../styles/About.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-function About() {
+function About(props) {
   return (
     <>
-      <h1>About</h1>
-      <img src={Image} alt="front of the Met" />
-      <p>Hello! I'm Jessica, a full stack software engineer who enjoys creating innovative and thoughtful websites that deeply considers the impact made on the user experience.</p>
-      <p>When building projects, I use my chemistry background to think critically and problem solve while utilizing my counseling/advising background to communicate the intention of a project with purpose and clarity.</p>
-      <p>Producing meaningful work that leaves a lasting impression on others is my passion.</p>
-      <h2>What brings me joy...</h2>
-      <ul>
-        <li>traveling</li>
-        <li>drawing</li>
-        <li>baking</li>
-        <li>singing</li>
-      </ul>
+      <div className={styles.about}>
+        <h1>About</h1>
+        <img src={Image} alt="front of the Met" />
+        <div className={styles.aboutText}>
+          <p>Hello! I'm Jessica, a full stack software engineer who enjoys creating <span>innovative</span> and <span>thoughtful</span> websites that deeply considers the impact made on the user experience.</p>
+          <p>When building projects, I use my chemistry background to <span>think critically</span> and <span>problem solve</span> while utilizing my counseling/advising background to communicate the intention of a project with <span>purpose</span> and <span>clarity</span>.</p>
+          <p>Producing meaningful work that leaves a lasting impression on others is my <span>passion</span>.</p>
+        </div>
+        <div className={styles.joyList}>
+          <h4>What brings me joy...</h4>
+          <div className={styles.interests}>
+            <div className={styles.left}>
+              <div className={styles.interestContainer}>
+                <FontAwesomeIcon icon={props.faEarthAmericas} />
+                <p>traveling</p>
+              </div>
+              <div className={styles.interestContainer}>
+                <FontAwesomeIcon icon={props.faPalette} />
+                <p>creating</p>
+              </div>
+            </div>
+            <div className={styles.right}>
+              <div className={styles.interestContainer}>
+                <FontAwesomeIcon icon={props.faCookieBite} />
+                <p>baking</p>
+              </div>
+              <div className={styles.interestContainer}>
+                <FontAwesomeIcon icon={props.faMusic} />
+                <p>singing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }

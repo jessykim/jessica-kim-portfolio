@@ -1,0 +1,85 @@
+span {
+  font-weight: 700;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5EFE3;
+  padding-top: 40px;
+}
+
+/* .about * {
+  border: 1px solid red;
+} */
+
+.about > img {
+  height: 350px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.joyList {
+  margin-bottom: 50px;
+  width: 80%;
+}
+
+.aboutText{
+  background-color: rgba(255, 255, 255, 0.650);
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.aboutText > p {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 12px;
+  text-align-last: left;
+  text-align: justify;
+}
+
+.interests {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+.left, .right {
+  width: 50%;
+}
+
+.right > p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 40px;
+  padding: 15px 0;
+}
+
+.left > p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 40px;
+  padding: 15px 0;
+}
+
+.interestContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.650);
+  padding: 20px;
+  margin: 0 5px 5px 0;
+}
+
+.interestContainer p {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.interestContainer svg {
+  height: 30px;
+  color: #A6AA9C;
+}

@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-color: #F5EFE3;;
+  background-color: #E6E7E5;
   height: 100vh;
+  padding-top: 40px;
 }
 
 .home > img {

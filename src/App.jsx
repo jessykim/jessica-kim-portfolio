@@ -12,6 +12,10 @@ import { faComments } from '@fortawesome/free-regular-svg-icons'
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { faAddressCard } from '@fortawesome/free-regular-svg-icons'
+import { faEarthAmericas } from '@fortawesome/free-solid-svg-icons'
+import { faCookieBite } from '@fortawesome/free-solid-svg-icons'
+import { faPalette } from '@fortawesome/free-solid-svg-icons'
+import { faMusic } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   return (
@@ -26,7 +30,14 @@ function App() {
       <main>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='about' element={<About />} />
+          <Route path='about' element={
+            <About 
+              faEarthAmericas={faEarthAmericas}
+              faCookieBite={faCookieBite}
+              faPalette={faPalette}
+              faMusic={faMusic}
+            />
+          } />
           <Route path='contact' element={<Contact />} />
           <Route path='resume' element={<Resume />} />
           <Route path='projects' element={<Projects />} />
