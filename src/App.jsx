@@ -20,14 +20,14 @@ import { faMusic } from '@fortawesome/free-solid-svg-icons'
 function App() {
   return (
     <>
-      <NavBar 
-        faFaceSmile={faFaceSmile} 
-        faComments={faComments}
-        faBriefcase={faBriefcase}
-        faCode={faCode}
-        faAddressCard={faAddressCard}
-      />
       <main>
+        <NavBar 
+          faFaceSmile={faFaceSmile} 
+          faComments={faComments}
+          faBriefcase={faBriefcase}
+          faCode={faCode}
+          faAddressCard={faAddressCard}
+        />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='about' element={
