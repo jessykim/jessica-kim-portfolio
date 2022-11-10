@@ -1,12 +1,12 @@
 .contact {
-  background: linear-gradient(#9fa5d5, #e8f5c8);
+  /* background: linear-gradient(#9fa5d5, #e8f5c8); */
   /* background: linear-gradient(#561139, #38a2d7); */
   /* background: linear-gradient(#000000, #ffeaa7); */
   /* background: linear-gradient(#5D4954, #FFA69E
   ); */
   /* border: 1px solid red; */
   height: 100vh;
-  padding-top: 40px;
+  /* padding-top: 40px; */
   display: flex;
   flex-direction: column;
   align-items: center;
