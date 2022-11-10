@@ -1,0 +1,119 @@
+.contact {
+  background: linear-gradient(#9fa5d5, #e8f5c8);
+  /* background: linear-gradient(#561139, #38a2d7); */
+  /* background: linear-gradient(#000000, #ffeaa7); */
+  /* background: linear-gradient(#5D4954, #FFA69E
+  ); */
+  /* border: 1px solid red; */
+  height: 100vh;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.541);
+  width: 80%;
+  padding: 15px;
+  /* border: 1px solid red; */
+  height: 440px;
+}
+
+.header {
+  color: black;
+  width: 100%;
+  /* height: 30%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid green; */
+  /* background-color: rgba(129, 127, 127, 0.623); */
+}
+
+.header p {
+  line-height: 15px;
+  text-align: justify;
+  text-align-last: center;
+  /* padding: 0 15px; */
+  width: 80%;
+  margin: 0;
+  font-size: 12px;
+}
+
+.contactLinks {
+  /* border: 1px solid red; */
+  /* width: 80%; */
+  /* margin-top: 15px; */
+  display: flex;
+  justify-content: space-evenly;
+  justify-self: flex-end;
+  /* margin-bottom: 5px; */
+}
+
+.contactLinks img {
+  width: 30px;
+  padding: 20px;
+}
+
+.contactLinks img:hover {
+  cursor: pointer;
+  width: 35px;
+}
+
+.header h1 {
+  text-align: center;
+  margin: 20px 0 15px 0;
+}
+
+form {
+  /* border: 1px solid rgb(182, 182, 182); */
+  width: 100%;
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px 0; */
+}
+
+form input {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.541);
+  height: 30px;
+  padding-left: 6px;
+  margin-bottom: 15px;
+}
+
+form input:focus {
+  border-bottom: 1px solid rgba(119, 136, 153, 0.737);
+  outline-width: 0;
+}
+
+form textarea {
+  padding-left: 6px;
+  border: none;
+  resize: none;
+  min-height: 80px;
+  max-height: 180px;
+  background-color: rgba(255, 255, 255, 0.541);
+  /* font-family: canada-type-gibson, sans-serif; */
+}
+
+textarea:focus {
+  border-bottom: 1px solid rgba(119, 136, 153, 0.737);
+  outline-width: 0;
+}
+
+#send {
+  width: 20%;
+  align-self: center;
+  margin-top: 15px;
+}
+
+#send:hover {
+  background-color: #9fa5d576;
+  font-weight: 700;
+  color: white;
+}
