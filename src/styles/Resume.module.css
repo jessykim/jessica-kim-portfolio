@@ -2,5 +2,39 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* width: 100vw; */
 }
 
+.page {
+  /* border: 1px solid red; */
+  height: 500px;
+  overflow: scroll;
+  scale: 0.55;
+}
+
+.resumePdf {
+  width: 100vw;
+  /* height: auto; */
+} 
+
+.document {
+  display: flex;
+  justify-content: center;
+  /* height: auto; */
+}
+
+.pageControls {
+  padding: 5px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.650);
+}
+
+.pageControls p {
+  margin: 10px;
+}
+
+.pageControls button {
+  border: none;
+  background-color: transparent;
+  padding: 0 8px;
+}

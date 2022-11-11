@@ -32,17 +32,6 @@ function Resume() {
     <>
       <div className={styles.resume}>
         <h1>Resume</h1>
-        <div className={styles.resumePdf}>
-          <Document
-            file={resume}
-            onLoadSuccess={onDocumentLoadSuccess}
-            onLoadError={console.error}
-            externalLinkTarget="_blank"
-            style={{ width: '100vw', height: 'auto' }}
-          >
-            <Page pageNumber={pageNumber} />
-          </Document>
-        </div>
         <div className={styles.pageControls}>
           <button 
             disabled={leftDisabled}
@@ -51,7 +40,7 @@ function Resume() {
           >
             ‹
           </button>
-          <span>{pageNumber} of {numPages}</span>
+          <p>{pageNumber} of {numPages}</p>
           <button 
             disabled={rightDisabled}
             type='button' 
@@ -59,6 +48,20 @@ function Resume() {
           >
             ›
           </button>
+        </div>
+        <div className={styles.resumePdf}>
+          <Document
+            file={resume}
+            onLoadSuccess={onDocumentLoadSuccess}
+            onLoadError={console.error}
+            externalLinkTarget="_blank"
+            className={styles.document}
+          >
+            <Page 
+              pageNumber={pageNumber}
+              className={styles.page}
+            />
+          </Document>
         </div>
         <div className={styles.download}>
           <a href={resume} download='Jessica_Kim_Resume'>
