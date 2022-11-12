@@ -2,25 +2,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 100vw; */
+  width: 100vw;
+  height: 100vh;
 }
 
 .page {
   /* border: 1px solid red; */
-  height: 500px;
+  height: 600px;
   overflow: scroll;
-  scale: 0.55;
+  /* scale: 0.55; */
+  transform: scale(.55);
+  top: -120px;
 }
 
 .resumePdf {
   width: 100vw;
-  /* height: auto; */
+  height: 360px;
+  margin: 20px 0 8px 0;
 } 
 
 .document {
   display: flex;
   justify-content: center;
-  /* height: auto; */
+  /* align-items: flex-start; */
+  height: 360px;
+}
+
+.download {
+  margin: 40px 0;
 }
 
 .pageControls {
@@ -30,11 +39,22 @@
 }
 
 .pageControls p {
-  margin: 10px;
+  margin: 5px 15px;
 }
 
 .pageControls button {
   border: none;
   background-color: transparent;
-  padding: 0 8px;
+  padding: 0 10px;
+}
+
+.download button {
+  border: none;
+  padding: 19px;
+}
+
+.download button:hover {
+  background-color: #9fa5d576;
+  font-weight: 700;
+  color: white;
 }
