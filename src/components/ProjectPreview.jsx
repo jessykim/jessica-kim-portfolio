@@ -9,10 +9,13 @@ function ProjectPreview({project}) {
     <>
       <a href={`/projects/${newUrl}`}>
         <div className={styles.projectContainer}>
-          <img 
-            src={project.image} 
-            alt={project.title}
-          />
+          <div>   
+            <img 
+              src={project.image} 
+              alt={project.title}
+              className={styles.img}
+            />
+          </div>
           <h3>{project.title}</h3>
           {/* <section> */}
             {/* <Link to={`/projects/${newUrl}`}>
