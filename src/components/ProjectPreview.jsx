@@ -1,5 +1,5 @@
 import { hyphenateWords } from "../utilities/hyphenateWords";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import styles from '../styles/ProjectPreview.module.css'
 
 function ProjectPreview({project}) {
