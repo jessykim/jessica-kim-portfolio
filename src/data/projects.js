@@ -26,6 +26,13 @@ const projects = [
     image: '',
     repositoryLink: 'https://github.com/creyes25/giftology-frontend',
     deploymentLink: 'https://giftology-madeez.netlify.app/'
+  },
+  {
+    title: 'Sweet Tooth',
+    description: 'Unit 4 project using Django, Python and PostgreSQL',
+    image: '',
+    repositoryLink: 'https://github.com/jessykim/dessert-collector-lab',
+    deploymentLink: 'TBD'
   }
 ]
 
