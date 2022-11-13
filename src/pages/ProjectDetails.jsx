@@ -12,7 +12,9 @@ const ProjectDetails = () => {
       <div className={styles.projectDetails}>
         <h1>{project.title}</h1>
         <p>{project.description}</p>
-        <img src={project.detailImage} alt="project-img" />
+        <img src={project.laptopImage} alt="project-img" />
+        <img src={project.mobileImage_1} alt="project-img" />
+        <img src={project.mobileImage_2} alt="project-img" />
 
         <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
           <button>GitHub Repository</button>
