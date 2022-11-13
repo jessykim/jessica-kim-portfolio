@@ -9,19 +9,17 @@ function ProjectPreview({project}) {
     <>
       <a href={`/projects/${newUrl}`}>
         <div className={styles.projectContainer}>
-          <div>   
+          <div className={styles.imageContainer}>   
             <img 
               src={project.image} 
               alt={project.title}
               className={styles.img}
             />
+            <div className={styles.image__overlay}>
+              <div className={styles.image__title}>{project.title}</div>
+              <div className={styles.image__tech}>hello</div>
+            </div>
           </div>
-          <h3>{project.title}</h3>
-          {/* <section> */}
-            {/* <Link to={`/projects/${newUrl}`}>
-              <button>Learn more</button>
-            </Link> */}
-          {/* </section> */}
         </div>
       </a>
     </>
