@@ -48,13 +48,23 @@
   padding: 0 10px;
 }
 
+.pageControls button:hover {
+  cursor: pointer;
+}
+
 .download button {
-  border: none;
+  /* border: 0.5px solid rgb(177, 179, 184); */
+  color: rgba(244, 237, 228, 0.717);
+  /* background-color: transparent; */
   padding: 19px;
+  background-color: transparent;
+  border: 0.5px solid white;
 }
 
 .download button:hover {
-  background-color: #9fa5d576;
+  /* background-color: rgba(255, 255, 255, 0.541); */
   font-weight: 700;
-  color: white;
+  /* color: rgba(0, 0, 0, 0.7); */
+  border: 0.5px solid white;
+  cursor: pointer;
 }

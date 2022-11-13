@@ -87,8 +87,12 @@ form input {
 }
 
 form input:focus {
-  border-bottom: 1px solid rgba(119, 136, 153, 0.737);
+  border-bottom: 1px solid black;
   outline-width: 0;
+}
+
+form input:hover {
+  border-bottom: 1px solid black;
 }
 
 form textarea {
@@ -102,18 +106,26 @@ form textarea {
 }
 
 textarea:focus {
-  border-bottom: 1px solid rgba(119, 136, 153, 0.737);
+  border-bottom: 1px solid black;
   outline-width: 0;
+}
+
+textarea:hover {
+  border-bottom: 1px solid black;
 }
 
 #send {
   width: 20%;
   align-self: center;
   margin-top: 15px;
+  background-color: transparent;
+  border: 0.5px solid black;
 }
 
 #send:hover {
-  background-color: #9fa5d576;
+  /* background-color: rgb(177, 179, 184); */
   font-weight: 700;
-  color: white;
+  /* color: white; */
+  /* border: 0.5px solid white; */
+  cursor: pointer;
 }

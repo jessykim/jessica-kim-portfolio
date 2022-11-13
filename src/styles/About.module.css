@@ -26,10 +26,15 @@ span {
   width: 80%;
 }
 
+.joyList h4 {
+  color: rgba(244, 237, 228, 0.717);
+}
+
 .aboutText{
   background-color: rgba(255, 255, 255, 0.650);
   width: 80%;
   margin-bottom: 20px;
+  padding: 10px;
 }
 
 .aboutText > p {
