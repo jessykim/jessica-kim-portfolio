@@ -14,13 +14,16 @@ const ProjectDetails = () => {
         <div className={styles.info}>
 
           <p>{project.description}</p>
-          <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
-            <button>GitHub Repository</button>
-          </a>
+          <div className={styles.links}>
 
-          <a href={project.deploymentLink} target="_blank" rel="noopener noreferrer">
-            <button>Deployed Link</button>
-          </a>
+            <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
+              <button>GitHub Repository</button>
+            </a>
+
+            <a href={project.deploymentLink} target="_blank" rel="noopener noreferrer">
+              <button>Deployed Link</button>
+            </a>
+          </div>
         </div>
 
         <div className={styles.images}>
