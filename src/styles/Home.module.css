@@ -15,23 +15,38 @@
 }
 
 .links {
-  border: 0.5px solid white;
+  /* border: 0.5px solid white; */
   display: flex;
   flex-direction: column;
   width: 60%;
-  align-items: flex-start;
+  align-items: center;
   margin: 20px;
 }
 
 .links a {
   display: flex;
   align-items: center;
+  /* color: white; */
+  width: 50%;
+  justify-content: center;
 }
 
-a svg {
+.links a:hover {
+  border: 0.5px solid white;
+  background-color: rgba(255, 255, 255, 0.541);
+  font-weight: 700;
+}
+
+/* a svg {
+  padding: 10px; 
+  width: 30%;
+} */
+
+/* svg:hover {
+  color: white;
+} */
+
+p {
   padding: 10px;
-}
-
-h3 {
-  padding-left: 10px;
+  margin: 0;
 }

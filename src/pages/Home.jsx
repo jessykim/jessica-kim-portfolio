@@ -15,19 +15,19 @@ function Home(props) {
         <div className={styles.links}>
           <Link to='/about'>
             <FontAwesomeIcon icon={props.faAddressCard} />
-            <h3>About</h3>
+            <p>About</p>
           </Link>
           <Link to='/projects'>
             <FontAwesomeIcon icon={props.faCode} />
-            <h3>Projects</h3>
+            <p>Projects</p>
           </Link>
           <Link to='/resume'>
             <FontAwesomeIcon icon={props.faBriefcase} />
-            <h3>Resume</h3>
+            <p>Resume</p>
           </Link>
           <Link to='/contact'>
             <FontAwesomeIcon icon={props.faComments} />
-            <h3>Contact</h3>
+            <p>Contact</p>
           </Link>
         </div>
       </div>
