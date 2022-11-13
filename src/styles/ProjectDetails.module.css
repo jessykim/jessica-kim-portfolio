@@ -3,3 +3,22 @@
   flex-direction: column;
   align-items: center;
 }
+
+.info, .images {
+  width: 80%;
+}
+
+.mobile {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.mobile img {
+  width: 130px;
+  border-radius: 20px;
+}
+
+.laptop {
+  border-radius: 3px;
+}

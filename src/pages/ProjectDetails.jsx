@@ -11,18 +11,26 @@ const ProjectDetails = () => {
     <>
       <div className={styles.projectDetails}>
         <h1>{project.title}</h1>
-        <p>{project.description}</p>
-        <img src={project.laptopImage} alt="project-img" />
-        <img src={project.mobileImage_1} alt="project-img" />
-        <img src={project.mobileImage_2} alt="project-img" />
+        <div className={styles.info}>
 
-        <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
-          <button>GitHub Repository</button>
-        </a>
+          <p>{project.description}</p>
+          <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
+            <button>GitHub Repository</button>
+          </a>
 
-        <a href={project.deploymentLink} target="_blank" rel="noopener noreferrer">
-          <button>Deployed Link</button>
-        </a>
+          <a href={project.deploymentLink} target="_blank" rel="noopener noreferrer">
+            <button>Deployed Link</button>
+          </a>
+        </div>
+
+        <div className={styles.images}>
+          <img src={project.laptopImage} alt="project-img" className={styles.laptop} />
+          <div className={styles.mobile}>
+            <img src={project.mobileImage_1} alt="project-img" />
+            <img src={project.mobileImage_2} alt="project-img" />
+          </div>
+        </div>
+
       </div>
     </>
   );
