@@ -29,7 +29,12 @@ function App() {
           faAddressCard={faAddressCard}
         />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Home
+            faComments={faComments}
+            faBriefcase={faBriefcase}
+            faCode={faCode}
+            faAddressCard={faAddressCard}
+          />} />
           <Route path='about' element={
             <About 
               faEarthAmericas={faEarthAmericas}

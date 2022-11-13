@@ -3,11 +3,35 @@
   flex-direction: column;
   align-items: center;
   /* background-color: #E6E7E5; */
-  height: 100vh;
+  /* height: 100vh; */
   /* padding-top: 40px; */
+  width: 100%;
 }
 
 .home > img {
-  border-radius: 10px;
-  width: 200px;
+  /* border-radius: 10px; */
+  width: 60%;
+  padding: 20px;
+}
+
+.links {
+  border: 0.5px solid white;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+}
+
+a svg {
+  padding: 10px;
+}
+
+h3 {
+  padding-left: 10px;
 }
