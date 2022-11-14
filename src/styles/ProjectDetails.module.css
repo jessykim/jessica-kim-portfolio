@@ -62,10 +62,11 @@
 
 .links button:hover {
   /* background-color: #9fa5d576; */
-  border: 0.5px solid white;
+  border: 0.5px solid rgba(255, 255, 255, 0.7);;
   font-weight: 700;
-  color: white;
+  color: rgba(255, 255, 255, 0.7);
   cursor: pointer;
+  letter-spacing: 4px;
 }
 
 .tech {

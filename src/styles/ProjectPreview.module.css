@@ -42,6 +42,7 @@
 
 .image__overlay:hover {
   opacity: 1;
+  box-shadow: 8px 8px 8px white;
 }
 
 .image__title {
