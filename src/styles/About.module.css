@@ -121,6 +121,14 @@ span {
   .aboutText p {
     font-size: 14px;
   }
+
+  .aboutText {
+    max-width: 500px;
+  }
+
+  .joyList {
+    max-width: 800px;
+  }
 } 
 
 @media only screen and (min-width: 1024px) {
@@ -128,14 +136,10 @@ span {
     width: 100%;
   }
 
-  .aboutText {
-    max-width: 500px;
-  }
-
-  .aboutText p {
+  /* .aboutText p {
     font-size: 16px;
     line-height: 25px;
-  }
+  } */
 
   .imgText img {
     max-height: 450px;
@@ -147,11 +151,11 @@ span {
 } 
 
 @media only screen and (min-width: 1200px) {
-  .aboutText p {
+  /* .aboutText p {
     font-size: 18px;
   }
 
   .joyList h4 {
     font-size: 23px;
-  }
+  } */
 } 
