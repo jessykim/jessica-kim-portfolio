@@ -15,7 +15,9 @@
 }
 
 .info p {
-  border: 0.5px solid rgba(255, 255, 255, 0.650);
+  /* border: 0.5px solid rgba(255, 255, 255, 0.650); */
+  background-color: rgba(255, 255, 255, 0.541);
+  box-shadow: 5px 5px 5px white;
   padding: 15px;
   width: 80%;
   text-align: justify;
@@ -50,18 +52,20 @@
 }
 
 .links button {
-  border: none;
+  border: 0.5px solid white;
   /* background-color: transparent; */
   padding: 10px;
   margin: 10px;
-  background-color: rgba(255, 255, 255, 0.650);
+  background-color: transparent;
+  color: rgba(244, 237, 228, 0.717);
 }
 
 .links button:hover {
-  background-color: #9fa5d576;
+  /* background-color: #9fa5d576; */
   border: 0.5px solid white;
   font-weight: 700;
   color: white;
+  cursor: pointer;
 }
 
 .tech {
