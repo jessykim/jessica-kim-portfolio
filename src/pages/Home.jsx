@@ -7,12 +7,12 @@ function Home(props) {
   return (
     <>
       <div className={styles.home}>
-        <div className={styles.message}>
-          <h1>Hi, I'm Jessica</h1>
-          <h2>Software Engineer</h2>
-        </div>
         <img src={Image} alt="headshot" />
         <div className={styles.links}>
+          <div className={styles.message}>
+            <h1>Hi, I'm Jessica</h1>
+            <h2>Software Engineer</h2>
+          </div>
           <Link to='/about'>
             <FontAwesomeIcon icon={props.faAddressCard} />
             <p>About</p>
