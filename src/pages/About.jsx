@@ -7,11 +7,13 @@ function About(props) {
     <>
       <div className={styles.about}>
         <h1>About</h1>
-        <img src={Image} alt="front of the Met" />
-        <div className={styles.aboutText}>
-          <p>Hello! I'm Jessica, a full stack software engineer who enjoys creating <span>innovative</span> and <span>thoughtful</span> websites that deeply considers the impact made on the user experience.</p>
-          <p>When building projects, I use my chemistry background to <span>think critically</span> and <span>problem solve</span> while utilizing my counseling/advising background to communicate the intention of a project with <span>purpose</span> and <span>clarity</span>.</p>
-          <p>Producing meaningful work that leaves a lasting impression on others is my <span>passion</span>.</p>
+        <div className={styles.imgText}>
+          <img src={Image} alt="front of the Met" />
+          <div className={styles.aboutText}>
+            <p>Hello! I'm Jessica, a full stack software engineer who enjoys creating <span>innovative</span> and <span>thoughtful</span> websites that deeply considers the impact made on the user experience.</p>
+            <p>When building projects, I use my chemistry background to <span>think critically</span> and <span>problem solve</span> while utilizing my counseling/advising background to communicate the intention of a project with <span>purpose</span> and <span>clarity</span>.</p>
+            <p>Producing meaningful work that leaves a lasting impression on others is my <span>passion</span>.</p>
+          </div>
         </div>
         <div className={styles.joyList}>
           <h4>What brings me joy...</h4>
