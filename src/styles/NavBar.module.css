@@ -7,12 +7,31 @@ nav {
 .container {
   height: 60px;
   width: 100%;
-  /* background-color: #F5EFE3; */
   background-color: none;
+  margin: 10px;
 }
 
-.container > a {
-  padding: 0 15px 0 15px;
-  /* color: #A6AA9C; */
+.container a {
+  padding: 15px;
   color: rgba(244, 237, 228, 0.717);
+  margin: 5px;
 }
+
+.container a:hover {
+  border: 0.5px solid white;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+    position: sticky;
+    top: 0px;
+    width: 20%;
+  }
+  
+  .container a {
+    padding: 25px;
+  }
+} 
