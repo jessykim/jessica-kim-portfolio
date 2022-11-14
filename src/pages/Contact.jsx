@@ -32,11 +32,8 @@ function Contact() {
             <p>Please feel free to contact me if you have any questions, comments or would like to collaborate! I hope to hear from you!</p>
           </div>
           <form ref={form} onSubmit={sendEmail}>
-            {/* <label>Name</label> */}
             <input type="text" name="user_name" placeholder='Name' required />
-            {/* <label>Email</label> */}
             <input type="email" name="user_email" placeholder='Email' required />
-            {/* <label>Message</label> */}
             <textarea name="message" placeholder='Message' required />
             <input type="submit" value="Send" id={styles.send} />
           </form>
