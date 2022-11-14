@@ -51,7 +51,7 @@ const projects = [
     mobileImage_1: 'https://i.imgur.com/qSkkkF6.png',
     mobileImage_2: 'https://i.imgur.com/4mKwE2f.png',
     repositoryLink: 'https://github.com/jessykim/dessert-collector-lab',
-    deploymentLink: 'TBD',
+    deploymentLink: 'https://my-sweet-tooth.herokuapp.com/',
     technologies: ['CSS', 'Django', 'HTML', 'PostgreSQL', 'Python']
   }
 ]
