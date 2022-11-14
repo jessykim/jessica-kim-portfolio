@@ -52,11 +52,9 @@ const ProjectDetails = () => {
             }
           </div>
           <div className={styles.links}>
-
             <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
               <button>GitHub Repository</button>
             </a>
-
             <a href={project.deploymentLink} target="_blank" rel="noopener noreferrer">
               <button>Deployed Link</button>
             </a>
