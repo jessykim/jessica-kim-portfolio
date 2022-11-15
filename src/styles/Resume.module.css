@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 100%; */
-  height: 100vh;
+  /* height: 100vh; */
+  min-height: calc(100vh - 80px);
+  /* border: 1px solid red; */
 }
 
 .page {
@@ -14,9 +15,10 @@
 }
 
 .resumePdf {
-  width: 100vw;
+  width: 100%;
   height: 360px;
-  margin: 20px 0 2px 0;
+  /* margin: 20px 0 2px 0; */
+  /* border: 1px solid yellow; */
 } 
 
 .document {
@@ -69,6 +71,7 @@
     padding-top: 40px;
     width: 90%;
     align-items: center;
+    height: 100vh;
   }
 
   .resumePdf {
@@ -85,7 +88,7 @@
   }
 
   .page {
-    height: 650px;
+    height: 600px;
   }
 
   canvas {
@@ -105,7 +108,7 @@
   }
 
   .page {
-    height: 680px;
+    height: 610px;
   }
 
   canvas {
@@ -125,7 +128,7 @@
   }
 
   .page {
-    height: 710px;
+    height: 620px;
   }
 
   canvas {
@@ -140,7 +143,7 @@
 } 
 
 @media only screen and (min-width: 1200px) {
-  .resumePdf {
+  /* .resumePdf {
     height: 470px;
   }
 
@@ -156,5 +159,5 @@
   .page div {
     width: 1600px !important;
     height: 2070px !important;
-  }
+  } */
 } 

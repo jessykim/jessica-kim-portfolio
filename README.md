@@ -1,6 +1,6 @@
 # Portfolio
 
-## LINK 👉🏼 [Portfolio](...)
+## LINK 👉🏼 [Portfolio](https://jessica-kim-portfolio.netlify.app/)
 
 <!-- ## Background & Description
 

@@ -11,6 +11,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* border: 5px solid pink; */
 }
 
 @media only screen and (min-width: 768px) {
