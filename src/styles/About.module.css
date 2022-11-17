@@ -6,6 +6,7 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* height: 100vh; */
 } 
 
 .about img {
@@ -26,7 +27,7 @@ span {
 }
 
 .joyList h4 {
-  color: rgba(244, 237, 228, 0.717);
+  color: #3D414C;
 }
 
 .aboutText{
@@ -73,7 +74,7 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 0.5px solid rgba(255, 255, 255, 0.650);
+  border: 0.5px solid #998D7D;
   padding: 20px;
   margin: 0 5px 5px 0;
 }
@@ -81,12 +82,12 @@ span {
 .interestContainer p {
   margin: 0;
   padding-top: 10px;
-  color: rgb(179, 173, 165);
+  color: #3D414C;
 }
 
 .interestContainer svg {
   height: 30px;
-  color: rgb(179, 173, 165);
+  color: #998D7D;
 }
 
 @media only screen and (min-width: 768px) {

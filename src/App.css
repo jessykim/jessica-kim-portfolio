@@ -2,7 +2,8 @@ main {
   /* background: linear-gradient(#9fa5d5, #e8f5c8); */
   /* background: linear-gradient(#9fa5d5, #ffeaa7); */
   /* background: linear-gradient(45deg, rgb(20, 22, 29), rgb(177, 179, 184)); */
-  background: linear-gradient(to right, rgb(177, 179, 184), rgb(20, 22, 29));
+  /* background: linear-gradient(to right, rgb(177, 179, 184), rgb(20, 22, 29)); */
+  background: linear-gradient(45deg, #F4F0EA, #998D7D);
   /* background: linear-gradient(#561139, #38a2d7); */
   /* background: linear-gradient(#000000, #ffeaa7); */
   /* background: linear-gradient(#5D4954, #FFA69E
@@ -14,6 +15,7 @@ main {
   align-items: center;
   /* border: 5px solid pink; */
   font-family: 'Montserrat', sans-serif;
+  color: #3D414C;
 }
 
 @media only screen and (min-width: 768px) {

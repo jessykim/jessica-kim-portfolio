@@ -10,7 +10,7 @@ function Home(props) {
         <img src={Image} alt="headshot" />
         <div className={styles.links}>
           <div className={styles.message}>
-            <h1>Hi, I'm Jessica</h1>
+            <h1>Hi, I'm <span>Jessica</span></h1>
             <h2>Software Engineer</h2>
           </div>
           <Link to='/about'>

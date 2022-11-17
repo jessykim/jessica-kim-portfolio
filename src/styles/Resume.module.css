@@ -57,6 +57,7 @@
   padding: 19px;
   background-color: transparent;
   border: 0.5px solid rgb(179, 173, 165);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .download button:hover {
