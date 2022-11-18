@@ -28,25 +28,25 @@ const ProjectDetails = () => {
             {
               project.technologies.map(function(tech, idx) {
                 if (tech === 'HTML') {
-                  return <img src={HTML} alt="html icon" key={idx} />
+                  return <div><img src={HTML} alt="html icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'CSS') {
-                  return <img src={CSS} alt="css icon" key={idx} />
+                  return <div><img src={CSS} alt="css icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'JavaScript') {
-                  return <img src={JavaScript} alt="javascript icon" key={idx} />
+                  return <div><img src={JavaScript} alt="javascript icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'Bootstrap') {
-                  return <img src={Bootstrap} alt="bootstrap icon" key={idx} />
+                  return <div><img src={Bootstrap} alt="bootstrap icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'MongoDB') {
-                  return <img src={MongoDB} alt="mongodb icon" key={idx} />
+                  return <div><img src={MongoDB} alt="mongodb icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
                 }  else if (tech === 'Node') {
-                  return <img src={Node} alt="node icon" key={idx} />
+                  return <div><img src={Node} alt="node icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'React') {
-                  return <img src={React} alt="react icon" key={idx} />
+                  return <div><img src={React} alt="react icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'Django') {
-                  return <img src={Django} alt="django icon" key={idx} />
+                  return <div><img src={Django} alt="django icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'PostgreSQL') {
-                  return <img src={PostgreSQL} alt="postgresql icon" key={idx} />
+                  return <div><img src={PostgreSQL} alt="postgresql icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
                 } else {
-                  return <img src={Python} alt="python icon" key={idx} />
+                  return <div><img src={Python} alt="python icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
                 } 
               })
             }

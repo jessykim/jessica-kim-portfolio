@@ -51,33 +51,55 @@
 }
 
 .links button {
-  border: 0.5px solid rgba(255, 255, 255, 0.7);
+  border: 0.5px solid #3D414C;
   padding: 10px;
   margin: 8px;
   background-color: transparent;
-  color: rgba(255, 255, 255, 0.7);
+  color: #3D414C;
   font-family: 'Montserrat', sans-serif;
 }
 
 .links button:hover {
-  border: 0.5px solid white;
+  /* border: 0.5px solid white; */
   font-weight: 700;
-  color: white;
+  /* color: white; */
   cursor: pointer;
 }
 
 .tech {
   margin: 15px 0;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tech div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: fit-content; */
+  width: 30%;
 }
 
 .tech img {
-  width: 15%;
+  width: 50%;
   padding: 8px;
   background-color: rgba(255, 255, 255, 0.650);
   border-radius: 10px;
   margin: 5px;
+}
+
+p.techName {
+  /* border: 1px solid red; */
+  background: none;
+  width: fit-content;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 425px) {
