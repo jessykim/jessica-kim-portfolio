@@ -58,6 +58,8 @@
   cursor: pointer;
   /* width: 35px; */
   border: 0.5px solid white;
+  box-shadow: 5px 5px 5px white;
+  background-color: #F4F0EA;
 }
 
 .header h1 {
@@ -120,7 +122,7 @@ textarea:hover {
 #send:hover {
   font-weight: 700;
   cursor: pointer;
-  letter-spacing: 4px;
+  /* letter-spacing: 4px; */
 }
 
 @media only screen and (min-width: 768px) {

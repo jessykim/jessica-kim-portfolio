@@ -53,19 +53,19 @@
 }
 
 .download button {
-  color: rgba(244, 237, 228, 0.717);
+  color: #3D414C;
   padding: 19px;
   background-color: transparent;
-  border: 0.5px solid rgb(179, 173, 165);
+  border: 0.5px solid #3D414C;
   font-family: 'Montserrat', sans-serif;
 }
 
 .download button:hover {
   font-weight: 700;
-  border: 0.5px solid rgba(255, 255, 255, 0.7);;
-  color: rgba(255, 255, 255, 0.7);
+  /* border: 0.5px solid rgba(255, 255, 255, 0.7);; */
+  /* color: rgba(255, 255, 255, 0.7); */
   cursor: pointer;
-  letter-spacing: 4px;
+  /* letter-spacing: 4px; */
 }
 
 @media only screen and (min-width: 768px) {
