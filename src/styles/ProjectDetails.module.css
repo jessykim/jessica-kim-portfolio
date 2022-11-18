@@ -114,8 +114,12 @@ p.techName {
     width: 100%;
   }
 
+  .tech div {
+    width: 20%;
+  }
+
   .tech img {
-    width: 13%;
+    width: 55%;
   }
 
   .mobile img {
@@ -133,7 +137,7 @@ p.techName {
   }
 
   .tech img {
-    width: 12%;
+    width: 60%;
   }
 
   .mobile img {
@@ -147,7 +151,7 @@ p.techName {
   }
 
   .tech img {
-    width: 11%;
+    width: 65%;
   }
 
   .mobile img {
@@ -161,7 +165,7 @@ p.techName {
   }
 
   .tech img {
-    width: 10%;
+    width: 70%;
   }
 
   .mobile img {
