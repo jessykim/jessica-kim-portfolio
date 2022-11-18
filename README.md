@@ -17,6 +17,7 @@
   - React
 
 ## Credits
+- [Favicon](https://favicon.io/)
 - [FontAwesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Iconfinder](https://www.iconfinder.com/)
