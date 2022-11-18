@@ -28,25 +28,25 @@ const ProjectDetails = () => {
             {
               project.technologies.map(function(tech, idx) {
                 if (tech === 'HTML') {
-                  return <div><img src={HTML} alt="html icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
+                  return <div key={idx}><img src={HTML} alt="html icon" /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'CSS') {
-                  return <div><img src={CSS} alt="css icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
+                  return <div key={idx}><img src={CSS} alt="css icon" /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'JavaScript') {
-                  return <div><img src={JavaScript} alt="javascript icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
+                  return <div key={idx}><img src={JavaScript} alt="javascript icon" /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'Bootstrap') {
-                  return <div><img src={Bootstrap} alt="bootstrap icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
+                  return <div key={idx}><img src={Bootstrap} alt="bootstrap icon" /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'MongoDB') {
-                  return <div><img src={MongoDB} alt="mongodb icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
+                  return <div key={idx}><img src={MongoDB} alt="mongodb icon" /><p className={styles.techName}>{tech}</p></div>
                 }  else if (tech === 'Node') {
-                  return <div><img src={Node} alt="node icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
+                  return <div key={idx}><img src={Node} alt="node icon" /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'React') {
-                  return <div><img src={React} alt="react icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
+                  return <div key={idx}><img src={React} alt="react icon" /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'Django') {
-                  return <div><img src={Django} alt="django icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
+                  return <div key={idx}><img src={Django} alt="django icon" /><p className={styles.techName}>{tech}</p></div>
                 } else if (tech === 'PostgreSQL') {
-                  return <div><img src={PostgreSQL} alt="postgresql icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
+                  return <div key={idx}><img src={PostgreSQL} alt="postgresql icon" /><p className={styles.techName}>{tech}</p></div>
                 } else {
-                  return <div><img src={Python} alt="python icon" key={idx} /><p className={styles.techName}>{tech}</p></div>
+                  return <div key={idx}><img src={Python} alt="python icon" /><p className={styles.techName}>{tech}</p></div>
                 } 
               })
             }
