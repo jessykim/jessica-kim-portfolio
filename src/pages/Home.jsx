@@ -1,4 +1,4 @@
-import Image from '../assets/headshot.jpg'
+import Image from '../assets/jessi-43.jpg'
 import styles from '../styles/Home.module.css'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -7,7 +7,7 @@ function Home(props) {
   return (
     <>
       <div className={styles.home}>
-        <img src={Image} alt="headshot" />
+        <img src={Image} alt="downtown img" />
         <div className={styles.links}>
           <div className={styles.message}>
             <h1>Hi, I'm <span>Jessica</span></h1>

@@ -7,7 +7,7 @@
 }
 
 .home img {
-  width: 40%;
+  width: 60%;
   padding: 20px;
 }
 
@@ -90,9 +90,9 @@ a > p {
     font-size: 30px;
   }
 
-  .home img {
+  /* .home img {
     max-width: 370px;
-  }
+  } */
 } 
 
 @media only screen and (min-width: 1024px) {
