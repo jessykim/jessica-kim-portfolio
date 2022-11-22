@@ -1,4 +1,4 @@
-import Image from '../assets/IMG_3659.jpg'
+import Image from '../assets/jessi-21.jpg'
 import styles from '../styles/About.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
