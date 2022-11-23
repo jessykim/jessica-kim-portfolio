@@ -63,8 +63,8 @@
 .contactLinks img:hover {
   cursor: pointer;
   /* width: 35px; */
-  border: 0.5px solid white;
-  box-shadow: 5px 5px 5px white;
+  /* border: 0.5px solid white;
+  box-shadow: 5px 5px 5px white; */
   /* border-radius: 10px; */
   /* background-color: #F4F0EA; */
 }
@@ -123,13 +123,16 @@ textarea:hover {
   align-self: center;
   margin-top: 15px;
   background-color: transparent;
-  border: 0.5px solid #3D414C;
+  border: 0.5px dotted #3D414C;
+  color: #3D414C;
 }
 
 #send:hover {
+  /* border: 0.5px solid black; */
+  border: 0.5px solid #3D414C;
   font-weight: 700;
   cursor: pointer;
-  /* letter-spacing: 4px; */
+  letter-spacing: 4px;
 }
 
 @media only screen and (min-width: 768px) {
