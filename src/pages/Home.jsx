@@ -14,7 +14,7 @@ function Home(props) {
         <div className={styles.links}>
           <div className={styles.message}>
             <h1>Hi, I'm <span>Jessica</span></h1>
-            <h2>Software Engineer</h2>
+            <h2><span>Software Engineer</span></h2>
           </div>
           <Link to='/about'>
             <FontAwesomeIcon icon={props.faAddressCard} />

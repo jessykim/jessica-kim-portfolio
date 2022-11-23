@@ -14,14 +14,21 @@
 .message {
   text-align: center;
   font-size: 100%;
+
 }
 
 .message span {
   color: rgba(255, 255, 255, 0.803);
+  /* font-family: 'DM Serif Display', serif; */
+  font-size: larger;
 }
 
 .message h1 {
   margin: 0;
+}
+
+.message h2 span {
+  font-size: smaller;
 }
 
 .links {
