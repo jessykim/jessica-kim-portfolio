@@ -16,6 +16,7 @@ main {
   /* border: 5px solid pink; */
   font-family: 'Montserrat', sans-serif;
   color: #3D414C;
+  /* height: 100vh; */
 }
 
 @media only screen and (min-width: 768px) {

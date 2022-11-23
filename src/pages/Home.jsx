@@ -1,9 +1,12 @@
 import Image from '../assets/jessi-43.jpg'
+// import Image2 from '../assets/jessi-21.jpg'
+// import Image3 from '../assets/jessi-53.jpg'
 import styles from '../styles/Home.module.css'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Home(props) {
+
   return (
     <>
       <div className={styles.home}>
