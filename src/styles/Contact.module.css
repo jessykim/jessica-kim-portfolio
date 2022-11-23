@@ -42,15 +42,21 @@
 .contactLinks {
   display: flex;
   justify-content: space-evenly;
-  justify-self: flex-end;
+  /* justify-self: flex-end; */
+  /* align-items: center; */
   /* padding: 15px; */
   width: 50%;
 }
 
+.contactLinks a {
+  display: flex;
+  justify-content: center;
+}
+
 .contactLinks img {
-  width: 30px;
-  padding: 15px;
-  margin: 10px;
+  width: 50%;
+  padding: 10px;
+  margin: 5px;
   box-sizing: unset;
 }
 
@@ -59,7 +65,8 @@
   /* width: 35px; */
   border: 0.5px solid white;
   box-shadow: 5px 5px 5px white;
-  background-color: #F4F0EA;
+  /* border-radius: 10px; */
+  /* background-color: #F4F0EA; */
 }
 
 .header h1 {
@@ -112,7 +119,7 @@ textarea:hover {
 }
 
 #send {
-  width: 20%;
+  width: 50%;
   align-self: center;
   margin-top: 15px;
   background-color: transparent;
