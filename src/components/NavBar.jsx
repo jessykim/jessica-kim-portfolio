@@ -6,7 +6,7 @@ function NavBar(props) {
   return (
     <nav className={styles.container}>
       <NavLink to='/'>
-        <FontAwesomeIcon icon={props.faFaceSmile} />
+        <FontAwesomeIcon icon={props.faHouse} />
       </NavLink>
       <NavLink to='/about'>
       <FontAwesomeIcon icon={props.faAddressCard} />

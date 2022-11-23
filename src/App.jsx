@@ -7,7 +7,7 @@ import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import NavBar from './components/NavBar';
 import ProjectDetails from './pages/ProjectDetails';
-import { faFaceSmile } from '@fortawesome/free-regular-svg-icons'
+import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import { faComments } from '@fortawesome/free-regular-svg-icons'
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
@@ -22,7 +22,7 @@ function App() {
     <>
       <main>
         <NavBar 
-          faFaceSmile={faFaceSmile} 
+          faHouse={faHouse} 
           faComments={faComments}
           faBriefcase={faBriefcase}
           faCode={faCode}
