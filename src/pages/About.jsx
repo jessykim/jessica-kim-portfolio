@@ -10,9 +10,9 @@ function About(props) {
         <div className={styles.imgText}>
           <img src={Image} alt="downtown img" />
           <div className={styles.aboutText}>
-            <p>Hello! I'm Jessica, a full stack software engineer who enjoys creating <span>innovative</span> and <span>thoughtful</span> websites that deeply considers the impact made on the user experience.</p>
-            <p>When building projects, I use my chemistry background to <span>think critically</span> and <span>problem solve</span> while utilizing my counseling/advising background to communicate the intention of a project with <span>purpose</span> and <span>clarity</span>.</p>
-            <p>Producing meaningful work that leaves a lasting impression on others is my <span>passion</span>.</p>
+            <p>Hello! I'm Jessica, a full stack software engineer who enjoys creating <span>innovative</span> and <span>effective</span> websites that considers the impact made on the user experience.</p>
+            <p>When building projects, I use my background in chemistry to <span>think critically</span> and <span>problem solve</span> while incorporating skills from my experience in counseling/advising to approach needs for improvement with <span>empathy</span> and <span>strategic planning</span>.</p>
+            <p>Producing meaningful work that serves a greater purpose is my <span>passion</span>.</p>
           </div>
         </div>
         <div className={styles.joyList}>
