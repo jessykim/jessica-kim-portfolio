@@ -1,11 +1,11 @@
 const projects = [
   {
     title: 'Potluck Planner',
-    description: 'Welcome to Potluck Planner! Here to help host your next potluck party! This side project was inspired by and built for my friend, Rina, who enjoys hosting potluck parties in her home and was interested in using another planning tool outside of Google spreadsheets. I thought this would be a good opportunity for me to build another full-stack application using the MERN stack and become more familiar with using React. This application also includes JSON Web Token (JWT) and was built using Express, a Node.js web application framework.',
-    image: '',
-    laptopImage: '',
-    mobileImage_1: '',
-    mobileImage_2: '',
+    description: 'Potluck Planner was inspired by and built for my friend, Rina, who enjoys hosting potluck parties in her home and was interested in using another planning tool outside of Google spreadsheets. I thought this would be a good opportunity for me to build another full-stack application using the MERN stack and become more familiar with using React. This application also includes JSON Web Token (JWT) and was built using Express, a Node.js web application framework.',
+    image: 'https://i.imgur.com/a9zyPRp.png',
+    laptopImage: 'https://i.imgur.com/EiLCb4w.png',
+    mobileImage_1: 'https://i.imgur.com/QCugPwW.png',
+    mobileImage_2: 'https://i.imgur.com/Jg5B8WJ.png',
     repositoryLink: 'https://github.com/jessykim/potluck-planner',
     deploymentLink: 'https://get-potluckin.netlify.app/',
     technologies: ['Bootstrap', 'CSS', 'HTML', 'JavaScript', 'MongoDB', 'Node', 'React']
