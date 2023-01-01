@@ -1,7 +1,7 @@
 const projects = [
   {
     title: 'Potluck Planner',
-    description: 'Potluck Planner was inspired by and built for my friend, Rina, who enjoys hosting potluck parties in her home and was interested in using another planning tool outside of Google spreadsheets. I thought this would be a good opportunity for me to build another full-stack application using the MERN stack and become more familiar with using React. This application also includes JSON Web Token (JWT) and was built using Express, a Node.js web application framework.',
+    description: 'Potluck Planner was inspired by and built for a friend who enjoys hosting potluck parties in her home and was interested in using another planning tool outside of Google spreadsheets. I thought this would be a good opportunity for me to build another full-stack application using the MERN stack and become more familiar with using React. This application also includes JSON Web Token (JWT) and was built using Express, a Node.js web application framework.',
     image: 'https://i.imgur.com/a9zyPRp.png',
     laptopImage: 'https://i.imgur.com/EiLCb4w.png',
     mobileImage_1: 'https://i.imgur.com/QCugPwW.png',
