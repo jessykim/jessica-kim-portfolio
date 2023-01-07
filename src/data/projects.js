@@ -12,13 +12,13 @@ const projects = [
   },
   {
     title: 'Sweet Tooth',
-    description: 'Sweet Tooth creates a space where dessert lovers can keep track of all their favorite desserts and recipes found online. Users can also create a list of locations where added desserts can be found.',
+    description: 'Sweet Tooth creates a space where dessert lovers can keep track of all their favorite desserts and recipes found online. Users can also create a list of locations where added desserts can be found. ** The deployed link is currently unavailable **',
     image: 'https://i.imgur.com/kZZGTAE.png',
     laptopImage: 'https://i.imgur.com/8LV4LH0.png',
     mobileImage_1: 'https://i.imgur.com/qSkkkF6.png',
     mobileImage_2: 'https://i.imgur.com/4mKwE2f.png',
     repositoryLink: 'https://github.com/jessykim/dessert-collector-lab',
-    deploymentLink: 'https://sweet-tooth.up.railway.app/',
+    deploymentLink: '',
     technologies: ['CSS', 'Django', 'HTML', 'PostgreSQL', 'Python']
   },
   {
